@@ -1,0 +1,6 @@
+localhost:8080 {
+    root * /apps/oort/ci4/public
+    encode gzip
+    php_fastcgi php-fpm:9000
+    file_server
+}
